@@ -9,7 +9,7 @@ def input_to_index(str)
   str.to_i-1
 end
 def move(array, index, value='X')
-  array[index] = value
+  board[index-1] = value
 end
 
 # code your input_to_index and move method here!
